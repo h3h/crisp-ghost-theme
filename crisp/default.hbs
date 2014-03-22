@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">	
+<html lang="en">
 	<head>
 	    {{! Document Settings }}
 	    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
@@ -8,8 +8,6 @@
 	    <title>{{meta_title}}</title>
 	    <meta name="description" content="{{meta_description}}" />
 	    {{! Styles }}
-	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
 		<link rel="shortcut icon" href="{{@blog.logo}}"/>
 	    {{! Responsive Meta Tags }}
@@ -20,7 +18,7 @@
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]--> 
+		<![endif]-->
 	    {{ghost_head}}
 	</head>
 	<body class="{{body_class}}">
@@ -34,7 +32,11 @@
 			{{{body}}}
 		</main>
 		<footer id="footer">
-			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. All rights reserved. Powered by <a href="http://ghost.org" target="_blank">Ghost</a>. <a href="http://github.com/kathyqian/crisp" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.</section>
+			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. All rights reserved.<br/>
+				Powered by <a href="http://ghost.org">Ghost</a><br/>
+				<a href="http://github.com/kathyqian/crisp">Crisp theme</a> by
+				<a href="http://kathyqian.com/">Kathy Qian</a>
+			</section>
 		</footer>
 	{{ghost_foot}}
 	</body>
