@@ -32,9 +32,9 @@ header {
 }
 footer {
     padding: 1em 0em 2.5em 0em;
-    font-size:0.8em;
+    font-size:0.6em;
     line-height: 1.5em;
-    color: #888;
+    color: #ccc;
 }
 article {
     border-bottom: 0.1em #eee solid;
@@ -170,13 +170,12 @@ h3.post-title {
     margin-bottom:1em;
 }
 footer a {
-    font-weight:300;
-    color:#888;
+    font-weight: 300;
+    color: #ccc;
     text-decoration: underline;
 }
 footer a:hover {
-    color:#444;
-    text-decoration: none;
+    color: #444;
 }
 /* Large Screens */
 @media only screen and (min-width: 1281px) {
