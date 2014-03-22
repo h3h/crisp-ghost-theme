@@ -161,10 +161,16 @@ h3.post-title {
     padding-bottom:0.9em;
     border-bottom: 1px solid #eee;
     font-size: 1.2em;
-    color: #444;
+    color: #ccc;
+}
+h3.post-title > .meta-date {
+    visibility: hidden;
+}
+h3.post-title:hover > .meta-date {
+    visibility: visible;
 }
 .separator {
-    color: #ccc;
+    color: #eee;
 }
 /* Footer */
 .pagination {
