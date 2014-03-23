@@ -19,12 +19,13 @@ body {
 /* Blocks */
 header {
     border-right: 1px #eee solid;
-    padding: 2em;
-    position:fixed;
-    top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
     left: 0;
-    height:100%;
-    width:13.5em;
+    padding: 2em;
+    position: fixed;
+    top: 0;
+    width: 13.5em;
 }
 #content {
     display: block;
@@ -95,32 +96,32 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 blockquote {
     border-left: 0.4em solid #eee;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    line-height: 1.6em;
     padding-left: 1.2em;
-    font-size: 1.3em;
+}
+blockquote em {
+    font-style: normal;
 }
 hr{
     border: 0;
     height: 1px;
-    background: #eee;
+    background-color: #eee;
 }
 ul, ol {
     margin-left: 3em;
 }
 code {
-    font-size:1.4em;
-    background: #eee;
+    font-size: 1.4em;
+    background-color: #eee;
 }
 pre {
+    background-color: #eee;
     font-size: 0.8em;
     line-height: 2em;
-    background: #eee;
     padding: 1em;
-    word-break: break-all;
-    word-wrap: break-word;
     white-space: pre;
-    white-space: -moz-pre-wrap;
-    white-space: pre-wrap;
-    white-space: pre\9;
 }
 input {
     font-size:1em;

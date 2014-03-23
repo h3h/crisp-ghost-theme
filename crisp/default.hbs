@@ -26,16 +26,16 @@
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 			<p>{{@blog.description}}</p>
-			<h6><a href="{{@blog.url}}/about">About</a></h6>
+			<h6><a href="{{@blog.url}}/about">About Brad</a></h6>
 		</header>
 		<main id="content">
 			{{{body}}}
 		</main>
 		<footer id="footer">
-			<section id="footer-message">&copy; 2001&ndash;{{date format='YYYY'}} {{@blog.title}} /
-				All rights reserved /
+			<section id="footer-message">&copy; 2001&ndash;{{date format='YYYY'}} {{@blog.title}} or original authors /
+				<a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution License">Some rights reserved</a><br/>
 				Powered by <a href="http://ghost.org/">Ghost</a> /
-				<a href="https://github.com/h3h/crisp-ghost-theme">modified Crisp theme</a> originally by
+				<a href="https://github.com/h3h/crisp-ghost-theme">Modified Crisp theme</a> originally by
 				<a href="http://kathyqian.com/">Kathy Qian</a>
 			</section>
 		</footer>
