@@ -165,11 +165,17 @@ h3.post-title {
     font-size: 1.2em;
     color: #ccc;
 }
+h3.post-title > a:hover {
+    color: #153756;
+    text-decoration: none;
+}
 h3.post-title > .meta-date {
-    visibility: hidden;
+    opacity: 0;
+    cursor: default;
 }
 h3.post-title:hover > .meta-date {
-    visibility: visible;
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in;
 }
 .separator {
     color: #eee;
