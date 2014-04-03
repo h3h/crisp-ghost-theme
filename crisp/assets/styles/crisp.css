@@ -192,6 +192,9 @@ footer a {
 footer a:hover {
     color: #444;
 }
+footer p.footer-text {
+    padding-left: 0.5em;
+}
 /* Large Screens */
 @media only screen and (min-width: 1281px) {
     html, body {
