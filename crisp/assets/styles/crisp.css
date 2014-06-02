@@ -47,6 +47,9 @@ p, hr, h4, h5, h6 {
     margin-top: 0.9em;
     margin-bottom: 0.9em;
 }
+p code {
+    padding: 0 0.15em;
+}
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -113,7 +116,6 @@ ul, ol {
     margin-left: 3em;
 }
 code {
-    font-size: 1.4em;
     background-color: #eee;
 }
 pre {
@@ -122,6 +124,9 @@ pre {
     line-height: 2em;
     padding: 1em;
     white-space: pre;
+}
+pre code {
+    font-size: 1.2em;
 }
 input {
     font-size:1em;
